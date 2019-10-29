@@ -25,13 +25,10 @@ public class Cube {
 				stickers[f][p] = new Sticker(f, p);
 		
 		int[] input = toInteger(_input);
-		System.out.println(Arrays.toString(input));
 				
 		setColors(input);
 		
 		setAllAdjacents();
-		System.out.println(Arrays.toString(vertices.toArray()));
-		System.out.println(Arrays.toString(edges.toArray()));
 		
 		solveVertices();
 				
